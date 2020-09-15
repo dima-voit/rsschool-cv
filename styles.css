@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    background-color: #d5dced;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.aside {
+    background-color:#82899B;
+    padding: 8% 40px;
+    text-align: center;
+}
+
+.cv__photo {
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 44px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact__title {
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.contact__list {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.contact__link {
+    color: #000;
+}
+
+.about {
+    background-color: #b0b9cf;
+    padding: 25px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section__title {
+    font-size: 24px;
+    text-transform: uppercase;
+    background-color:#82899B;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill__list {
+    width: 100%;
+    max-width: 200px;
+    margin-left: 10px;
+}
+
+.skill__css {
+    list-style-type: square;
+    margin-left: 10px;
+}
+
+.section__text {
+    margin-left: 10px;
+}
