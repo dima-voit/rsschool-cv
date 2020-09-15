@@ -1,1 +1,1 @@
-https://dima-voit.github.io/rsschool-cv/cv
+https://dima-voit.github.io/rsschool-cv/
