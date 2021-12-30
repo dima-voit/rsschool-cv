@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  background: #F5F5F5;
+}
+
+.header,
+.main,
+.footer {
+  padding: 0 30px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main__title {
+  font-size: 33px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.position {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.section {
+  display: flex;
+  padding: 30px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.section--intro {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section__title {
+  min-width: 160px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  font-style: italic;
+}
+
+.goal__text {
+  margin: 0 15px;
+}
+
+/* Contact */
+.contact {
+  padding: 0 10px;
+}
+
+.contact__list-item {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.contact__list-icon {
+  width: 10px;
+  margin-right: 10px;
+}
+
+.contact__link {
+  color: #333;
+  text-decoration: none;
+}
+
+.section__text,
+.work__period,
+.skills {
+  margin: 0 15px;
+}
+
+.work__period {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.skills {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.skill {
+  width: 100%;
+  min-width: 200px;
+}
+
+.skill__css,
+.work__function {
+  list-style-type: square;
+  margin-left: 10px;
+}
+
+.skill__css-item {
+  margin-left: 10px;
+}
+
+pre {
+  width: 100%;
+  margin: 0 0 0 10px;
+  background-color: #e7e7e7;
+  border-radius: 4px;
+}
+
+
+
+.work__function {
+  margin-bottom: 10px;
+}
+
+.work__function-item {
+  margin-left: 30px;
+}
+
+.footer {
+  background: #ccc;
+}
+
+.footer__inner {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__link {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer__icon {
+  width: 10px;
+  margin: 0 2px;
+}
+
+.footer__logo {
+  height: 40px;
+}
