@@ -6,12 +6,13 @@
 
 * __Phone:__ [+38 (095) 506-66-69](tel:+380955066669)
 * __E-mail:__ [dmytro.vojt@gmail.com](mailto:dmytro.vojt@gmail.com)
+* __Linkedin:__ [https://www.linkedin.com/in/dmytro-voit](https://www.linkedin.com/in/dmytro-voit)
 
 ----
 
 ### Objectives:
 
-My career goal is to get a position in a friendly team with full involvement in all stages of development. Today I work with HTML and CSS. I want to develop professionally as a JavaScript developer.
+For the last two years I worked at NaviAgency. I am joined the team as a content manager. I worked with CMS WordPress/Drupal/Joomla/OpenCart, mastered studio CMS on Yii2. Under the guidance of a front-end developer, I received and completed my first independent project. I have knowledge in HTML and CSS, also I have basic knowledge of JavaScript. And now I learn React. Professionally, I want to develop as a Front-end developer.
 
 ----
 
@@ -22,6 +23,7 @@ My career goal is to get a position in a friendly team with full involvement in 
   + Flexbox
   + SASS/SCSS
   + Bootstrap
+* JavaScript
 * Gulp
 * Git/GitHub
 * Adobe Photoshop/Figma
@@ -46,6 +48,12 @@ function sum (a, b) {
 ### Work experience:
 
 * __NAVI Agency__ – HTML/CSS coder, Content manager
+ + filling sites with content (work with CMS WordPress/Drupal/Joomla/OpenCart);
+ + reparation of images (cropping and adaptation of photos);
+ + work with CMS OpenCart (CMS installation, installation template, modules installation, creation and filling of product cards);
+ + work with HTML/CSS (layout and editing of site elements, emails);
+ + writing manuals for using the admin part of the site;
+ + technical support and consultation of clients on site administration;
 
 ----
 
@@ -59,10 +67,11 @@ function sum (a, b) {
 ### Courses:
 
 * **IT Hillel** - Front-End Basic
+* **IT Hillel** - Front-End Pro
 
 ----
 
 ### Languages:
 
-* **English** - Elementary
-* **Polski** - B1
+* **English** - Pre-Intermediate
+* **Polish** - Intermediate
