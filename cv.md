@@ -6,7 +6,8 @@
 
 * __Phone:__ [+38 (095) 506-66-69](tel:+380955066669)
 * __E-mail:__ [dmytro.vojt@gmail.com](mailto:dmytro.vojt@gmail.com)
-* __Linkedin:__ [https://www.linkedin.com/in/dmytro-voit](https://www.linkedin.com/in/dmytro-voit)
+* __Linkedin:__ [dmytro-voit](https://www.linkedin.com/in/dmytro-voit)
+* __GitHub:__ [dima-voit](https://github.com/dima-voit)
 
 ----
 
@@ -20,9 +21,10 @@ For the last two years I worked at NaviAgency. I am joined the team as a content
 
 * HTML
 * CSS
-  + Flexbox
+  + Flexbox/Grid
   + SASS/SCSS
   + Bootstrap
+  + TailwindCSS
 * JavaScript
 * Gulp
 * Git/GitHub
