@@ -35,15 +35,11 @@ For the last two years I worked at NaviAgency. I am joined the team as a content
 ### Code example:
 
 ```
-function main (a = 2, b = 3, c) { 
-  if(typeof (c) === 'function') {
-    return c(sum(a, b));
-  }
-  return sum(a, b);
-}
-
-function sum (a, b) { 
-  return a + b; 
+function mergeArrays(arr1, arr2) {
+  const uniqArray = [...new Set(arr1.concat(arr2))].sort(function(a, b) {
+    return a - b;
+  });
+  return uniqArray;
 }
 ```
 
