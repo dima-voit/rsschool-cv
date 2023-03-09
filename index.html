@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>CV</title>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section intro">
+        <div class="container">
+          <div class="intro-inner">
+            <div class="intro-info">
+              <div class="photo">
+                <img src="img/photo.jpeg" alt="Dmytro">
+              </div>
+              <div class="intro-text">
+                <h1 class="name">Dmytro Voit</h1>
+                <h3 class="position">Junior Front End Developer</h3>
+              </div>
+            </div>
+            <div class="intro-contact">
+              <ul class="contact-list">
+                <li class="contact-item">
+                  <img class="contact-icon" src="img/icon/marker.svg" alt="City">
+                    Ukraine, Kyiv</li>
+                <li class="contact-item">
+                  <img class="contact-icon" src="img/icon/email.svg" alt="E-mail">
+                  <a class="contact-link" href="mailto:dmytro.vojt@gmail.com">dmytro.vojt@gmail.com</a>
+                </li>
+                <li class="contact-item">
+                  <img class="contact-icon" src="img/icon/phone.svg" alt="Phone">
+                  <a class="contact-link" href="tel:+380955066669">+380&nbsp;(95)&nbsp;506&#8209;66&#8209;69</a>
+                </li>
+                <li class="contact-item">
+                  <img class="contact-icon" src="img/icon/linkedin.svg" alt="Linkedin">
+                  <a class="contact__link" href="https://www.linkedin.com/in/dmytro-voit" target="_blank">Linkedin: dmytro-voit</a>
+                </li>
+                <li class="contact-item">
+                  <img class="contact-icon" src="img/icon/github.svg" alt="GitHub">
+                  <a class="contact-link" href="https://github.com/dima-voit" target="_blank">github.com/dima-voit</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="about">
+        <div class="container">
+          <h2 class="section-title">About me</h2>
+          <div class="section-content">
+            <p>
+              For the last two years I worked at NaviAgency. I am joined the team as a content manager. I worked with CMS WordPress/Drupal/Joomla/OpenCart, mastered studio CMS on Yii2. Under the guidance of a front-end developer, I received and completed my first independent project. I have knowledge in HTML and CSS, also I have basic knowledge of JavaScript. Professionally, I want to develop as a Front-end developer.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="skills">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="section-content">
+            <div class="skills">
+              <ul class="skill">
+                <li>HTML</li>
+                  <li>CSS
+                    <ul class="skill-css">
+                      <li class="skill-css-item">Flexbox</li>
+                      <li class="skill-css-item">SASS/SCSS</li>
+                      <li class="skill-css-item">Bootstrap</li>
+                      <li class="skill-css-item">TailwindCSS</li>
+                    </ul>
+                  </li>
+                <li>JavaScript</li>
+              </ul>
+              <ul class="skill">
+                <li>Gulp/Webpack</li>
+                <li>npm/yarn</li>
+                <li>Git</li>
+              </ul>
+              <ul class="skill">
+                <li>Adobe Photoshop</li>
+                <li>Figma</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Code example</h2>
+          <div class="section-content code">
+            <pre>
+              <code class="code">
+      function mergeArrays(arr1, arr2) {
+        const uniqArray = [...new Set(arr1.concat(arr2))].sort(function(a, b) {
+          return a - b;
+        });
+        return uniqArray;
+      }
+              </code>
+            </pre>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="projects">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="section-content">
+            <ul class="project-list">
+              <li class="project-item">
+                <figure>
+                  <img src="img/projects/dappy.png" alt="Dappy">
+                  <figcaption>
+                    <h4 class="project-name">Dappy</h4>
+                    <div class="project-tecnology">HTML, CSS, jQuery</div>
+                    <div class="project-links">
+                      <a href="https://github.com/dima-voit/dappy" target="_blank">Code</a>
+                      <a href="https://dappy-two.vercel.app" target="_blank">Demo</a>
+                    </div>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="project-item">
+                <figure>
+                  <img src="img/projects/webdev.png" alt="Webdev">
+                  <figcaption>
+                    <h4 class="project-name">Webdev</h4>
+                    <div class="project-tecnology">HTML, CSS, Bootstrap</div>
+                    <div class="project-links">
+                      <a href="https://github.com/dima-voit/webdev" target="_blank">Code</a>
+                      <a href="https://webdev-lime.vercel.app" target="_blank">Demo</a>
+                    </div>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="project-item">
+                <figure>
+                  <img src="img/projects/circlechain.png" alt="Circlechain">
+                  <figcaption>
+                    <h4 class="project-name">Circlechain</h4>
+                    <div class="project-tecnology">React, SCSS, Axios</div>
+                    <div class="project-links">
+                      <a href="https://github.com/dima-voit/circlechain" target="_blank">Code</a>
+                      <a href="https://circlechain.vercel.app/" target="_blank">Demo</a>
+                    </div>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="project-item">
+                <figure>
+                  <img src="img/projects/easybank.png" alt="Easybank">
+                  <figcaption>
+                    <h4 class="project-name">Easybank</h4>
+                    <div class="project-tecnology">HTML, TailwindCSS, JS</div>
+                    <div class="project-links">
+                      <a href="https://github.com/dima-voit/easybank-landing-page" target="_blank">Code</a>
+                      <a href="https://easybank-landing-page-seven-lyart.vercel.app" target="_blank">Demo</a>
+                    </div>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="experience">
+        <div class="container">
+          <h2 class="section-title">Experience</h2>
+          <div class="section-content">
+            <span class="period">May 2019 – Sep 2021</span>
+            <p class="section-text"><b>NAVI Agency</b> – HTML/CSS coder, Content manager</p>
+            <ul class="work-function">
+              <li class="work-function-item">filling sites with content (work with CMS WordPress/Drupal/Joomla/OpenCart);</li>
+              <li class="work-function-item">preparation of images (cropping and adaptation of photos);</li>
+              <li class="work-function-item">work with CMS OpenCart (CMS installation, installation template, modules installation, creation and filling of product cards);</li>
+              <li class="work-function-item">work with HTML/CSS (layout and editing of site elements, emails);</li>
+              <li class="work-function-item">writing manuals for using the admin part of the site;</li>
+              <li class="work-function-item">technical support and consultation of clients on site administration;</li>
+            </ul>
+            <p class="section-text">Implement support for sites: <b>
+              <a href="https://ukravto.ua/" target="_blank">УкрАВТО</a>,
+              <a href="https://ua.totalenergies.com/uk" target="_blank">Total</a>,
+              <a href="https://www.elf.ua/uk" target="_blank">Elf</a>,
+              <a href="https://www.otpcapital.com.ua/" target="_blank">OTP Capital</a>
+              </b>.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="education">
+        <div class="container">
+          <h2 class="section-title">Education</h2>
+          <div class="section-content">
+            <p class="section-text"><b>Donbas National Academy of Civil Engineering and Architecture</b></p>
+            <p class="section-text">Faculty of Industrial and Civil Engineering</p>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Courses</h2>
+          <div class="section-content">
+            <p class="section-text"><b>IT Hillel</b> - Front-End Basic, Front-End Pro</p>
+            <p class="section-text"><b>Prometheus</b> - Fundamentals of WEB UI development</p>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Languages</h2>
+          <div class="section-content">
+            <p class="section-text"><b>English</b> - Pre-Intermediate</p>
+            <p class="section-text"><b>Polski</b> - Intermediate</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-item">
+            <a class="footer-link" href="https://github.com/dima-voit" target="_blank">
+              Git<img class="footer-icon" src="img/icon/github.svg" alt="GitHub">Hub
+            </a>
+          </div>
+          <div class="footer-item">
+            <a class="footer-link" href="https://rs.school/js" target="_blank">
+              <img class="footer-logo" src="img/rsschool-logo.svg" alt="RS School">
+            </a>
+          </div>
+          <div class="footer-item">
+            <small>© 2022</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
