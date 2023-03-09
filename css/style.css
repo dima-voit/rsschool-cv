@@ -1,0 +1,295 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  /* font-size: 15px; */
+  line-height: 1.5;
+  color: #000000;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.page {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(228, 246, 251, 0.8);;
+}
+
+.section .container {
+  display: flex;
+}
+
+.section-content {
+  width: 100%;
+}
+
+.section-title {
+  min-width: 160px;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  color: #5096F1;
+}
+
+.container {
+  width: 100%;
+  padding: 0 12px;
+}
+
+.period {
+  font-size: 12px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* Header */
+.header {
+  background: rgba(228, 246, 251, 0.8);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: end;
+  gap: 25px;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+/* Intro */
+.intro {
+  padding: 25px 0;
+  background: rgba(228, 246, 251, 0.8);
+}
+
+.intro-inner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro-info {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #5096F1;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 150px;
+  height: 150px;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.position {
+  font-style: italic;
+  color: #5096F1;
+}
+
+.contact-item {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.contact-icon {
+  width: 10px;
+  margin-right: 10px;
+}
+
+/* About */
+.goal-text {
+  margin: 0 15px;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 120px;
+}
+
+.skill-css, .work-function {
+  list-style-type: square;
+  margin-left: 10px;
+}
+
+.skill-css-item {
+  margin-left: 10px;
+}
+
+/* Code example */
+.code {
+  width: 100%;
+}
+
+pre {
+  width: 100%;
+  margin: 0;
+  background: rgba(228, 246, 251, 0.8);
+  border-radius: 4px;
+}
+
+/* Projects */
+.project-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+figure {
+  margin: 0;
+}
+
+.project-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.project-item figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  background: rgba(228, 246, 251, 0.9);
+}
+
+.project-name {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.project-links {
+  display: flex;
+  gap: 20px;
+}
+
+.project-links a {
+  padding: 10px 20px;
+  font-size: 8px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #5096F1;
+  border-radius: 4px;
+}
+
+/* Experience */
+#experience a {
+  text-decoration: underline;
+}
+
+.work-function-item {
+  margin-left: 10px;
+}
+
+/* Footer */
+.footer {
+  background: rgba(228, 246, 251, 0.8);
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.footer-icon {
+  width: 10px;
+  margin: 0 2px;
+}
+
+.footer-logo {
+  height: 40px;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .nav-list {
+    gap: 15px;
+  }
+  .intro-info {
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .name {
+    font-size: 32px;
+  }
+  .position {
+    font-size: 12px;
+  }
+  .intro-inner, .section .container {
+    flex-direction: column;
+  }
+  .section-title {
+    margin-bottom: 10px;
+  }
+  .contact-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px 20px;
+  }
+}
